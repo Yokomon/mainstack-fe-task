@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalBody Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="space-y-5 py-2"
+    data-testid="modalbody"
+  >
+    <div
+      class="flex items-center justify-between"
+    >
+      <button
+        data-testid="modalButton-Today"
+      >
+        Today
+      </button>
+      <button
+        data-testid="modalButton-Last 7 days"
+      >
+        Last 7 days
+      </button>
+      <button
+        data-testid="modalButton-This month"
+      >
+        This month
+      </button>
+      <button
+        data-testid="modalButton-Last 3 months"
+      >
+        Last 3 months
+      </button>
+    </div>
+    <div
+      class="my-5 space-y-2"
+    >
+      <h3>
+        Date Range
+      </h3>
+      <div
+        class="relative flex items-center justify-between"
+      >
+        <div
+          class="space-x-8"
+        >
+          <input
+            placeholder="Start date"
+            value=""
+          />
+          <input
+            placeholder="End date"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="mockSelectDropdown"
+    />
+    <div
+      data-testid="mockSelectDropdown"
+    />
+  </div>
+</DocumentFragment>
+`;

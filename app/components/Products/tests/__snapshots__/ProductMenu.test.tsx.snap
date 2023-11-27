@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductMenu Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="h-[35rem] w-[40rem] p-3 pt-16"
+  >
+    <div
+      class="p-2"
+    >
+      <div
+        class="flex items-center justify-between text-sm text-gray-500"
+      >
+        <h3>
+          Ledger Balance
+        </h3>
+        <svg
+          class="cursor-pointer text-gray-400"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="10"
+          />
+          <line
+            x1="12"
+            x2="12"
+            y1="16"
+            y2="12"
+          />
+          <line
+            x1="12"
+            x2="12.01"
+            y1="8"
+            y2="8"
+          />
+        </svg>
+      </div>
+      <div
+        class="text-2xl font-bold tracking-wide py-2"
+      >
+        <h1>
+          USD 1000
+        </h1>
+      </div>
+    </div>
+    <div
+      class="p-2"
+    >
+      <div
+        class="flex items-center justify-between text-sm text-gray-500"
+      >
+        <h3>
+          Total Payout
+        </h3>
+        <svg
+          class="cursor-pointer text-gray-400"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="10"
+          />
+          <line
+            x1="12"
+            x2="12"
+            y1="16"
+            y2="12"
+          />
+          <line
+            x1="12"
+            x2="12.01"
+            y1="8"
+            y2="8"
+          />
+        </svg>
+      </div>
+      <div
+        class="text-2xl font-bold tracking-wide py-2"
+      >
+        <h1>
+          USD 500
+        </h1>
+      </div>
+    </div>
+    <div
+      class="p-2"
+    >
+      <div
+        class="flex items-center justify-between text-sm text-gray-500"
+      >
+        <h3>
+          Total Revenue
+        </h3>
+        <svg
+          class="cursor-pointer text-gray-400"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="10"
+          />
+          <line
+            x1="12"
+            x2="12"
+            y1="16"
+            y2="12"
+          />
+          <line
+            x1="12"
+            x2="12.01"
+            y1="8"
+            y2="8"
+          />
+        </svg>
+      </div>
+      <div
+        class="text-2xl font-bold tracking-wide py-2"
+      >
+        <h1>
+          USD 1500
+        </h1>
+      </div>
+    </div>
+    <div
+      class="p-2"
+    >
+      <div
+        class="flex items-center justify-between text-sm text-gray-500"
+      >
+        <h3>
+          Pending Payout
+        </h3>
+        <svg
+          class="cursor-pointer text-gray-400"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="10"
+          />
+          <line
+            x1="12"
+            x2="12"
+            y1="16"
+            y2="12"
+          />
+          <line
+            x1="12"
+            x2="12.01"
+            y1="8"
+            y2="8"
+          />
+        </svg>
+      </div>
+      <div
+        class="text-2xl font-bold tracking-wide py-2"
+      >
+        <h1>
+          USD 200
+        </h1>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
