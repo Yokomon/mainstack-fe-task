@@ -38,9 +38,11 @@ exports[`TransactionDetail Component matches snapshot 1`] = `
         </svg>
       </button>
       <div
-        class="space-y-1"
+        class="space-y-1 tracking-tight"
       >
-        <h2>
+        <h2
+          class="font-medium"
+        >
           Test Transaction
         </h2>
         <p

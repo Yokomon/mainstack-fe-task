@@ -6,7 +6,7 @@ exports[`AppNavigation Component matches snapshot 1`] = `
     class="flex items-center space-x-2 xl:ml-32"
   >
     <a
-      class="p-2.5 flex items-center space-x-2 duration-500 cursor-pointer rounded-full px-5 text-sm  hover:bg-gray-100 hover:text-gray-600"
+      class="p-2.5 flex items-center space-x-2 duration-500 font-medium cursor-pointer rounded-full px-5 text-sm  hover:bg-gray-100 hover:text-gray-600"
       href="/"
     >
       <svg
@@ -27,7 +27,7 @@ exports[`AppNavigation Component matches snapshot 1`] = `
       </h3>
     </a>
     <a
-      class="p-2.5 flex items-center space-x-2 duration-500 cursor-pointer rounded-full px-5 text-sm  hover:bg-gray-100 hover:text-gray-600"
+      class="p-2.5 flex items-center space-x-2 duration-500 font-medium cursor-pointer rounded-full px-5 text-sm  hover:bg-gray-100 hover:text-gray-600"
       href="/"
     >
       <svg
@@ -55,7 +55,7 @@ exports[`AppNavigation Component matches snapshot 1`] = `
       </h3>
     </a>
     <a
-      class="p-2.5 flex items-center space-x-2 duration-500 cursor-pointer rounded-full px-5 text-sm  bg-black p-3 rounded-full text-white"
+      class="p-2.5 flex items-center space-x-2 duration-500 font-medium cursor-pointer rounded-full px-5 text-sm  bg-black p-3 rounded-full text-white"
       href="/"
     >
       <img
@@ -74,7 +74,7 @@ exports[`AppNavigation Component matches snapshot 1`] = `
       </h3>
     </a>
     <a
-      class="p-2.5 flex items-center space-x-2 duration-500 cursor-pointer rounded-full px-5 text-sm  hover:bg-gray-100 hover:text-gray-600"
+      class="p-2.5 flex items-center space-x-2 duration-500 font-medium cursor-pointer rounded-full px-5 text-sm  hover:bg-gray-100 hover:text-gray-600"
       href="/"
     >
       <img
@@ -98,7 +98,7 @@ exports[`AppNavigation Component matches snapshot 1`] = `
       <button
         aria-expanded="false"
         aria-haspopup="menu"
-        class="p-2.5 flex items-center space-x-2 duration-500  rounded-full px-5 text-sm hover:bg-gray-100"
+        class="p-2.5 flex items-center space-x-2 duration-500 font-medium rounded-full px-5 text-sm hover:bg-gray-100"
         data-headlessui-state=""
         id="headlessui-menu-button-:rn:"
         type="button"
