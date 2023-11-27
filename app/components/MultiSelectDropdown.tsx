@@ -1,42 +1,15 @@
 import React from "react";
 import Select, { components } from "react-select";
 import createClass from "create-react-class";
+import { customStyles } from "./styles";
 
 interface SelectProps {
   options: Array<{
     value: string;
     label: string;
   }>;
-  name: string
+  name: string;
 }
-const customStyles = {
-  input: (base: any) => ({
-    ...base,
-    "input:focus": {
-      boxShadow: "none",
-    },
-  }),
-  option: (base: any) => ({
-    ...base,
-    backgroundColor: "none",
-    color: "black",
-    margin: "5px",
-  }),
-  control: (base: any) => ({
-    ...base,
-    cursor: "pointer",
-    borderRadius: "15px",
-    padding: "5px 7px",
-    backgroundColor: "#eff1f6",
-    border: "none",
-  }),
-  multiValue: (base: any) => ({
-    ...base,
-    backgroundColor: "none",
-    borderRadius: "4px",
-    marginRight: "4px",
-  }),
-};
 
 const Option = createClass({
   render() {
@@ -55,10 +28,10 @@ const Option = createClass({
   },
 });
 
-const SelectDropdown: React.FC<SelectProps> = ({ options,name }) => {
+const SelectDropdown: React.FC<SelectProps> = ({ options, name }) => {
   return (
-    <div className="space-y-1">
-      <h3>{name}</h3>
+    <div className="space-y-2">
+      <h3 className="font-medium tracking-tight">{name}</h3>
       <Select
         isMulti
         styles={customStyles}

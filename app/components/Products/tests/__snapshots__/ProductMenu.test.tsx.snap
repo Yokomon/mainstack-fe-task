@@ -9,7 +9,7 @@ exports[`ProductMenu Component matches snapshot 1`] = `
       class="p-2"
     >
       <div
-        class="flex items-center justify-between text-sm text-gray-500"
+        class="flex items-center tracking-tight font-medium justify-between text-sm text-gray-500"
       >
         <h3>
           Ledger Balance
@@ -57,7 +57,7 @@ exports[`ProductMenu Component matches snapshot 1`] = `
       class="p-2"
     >
       <div
-        class="flex items-center justify-between text-sm text-gray-500"
+        class="flex items-center tracking-tight font-medium justify-between text-sm text-gray-500"
       >
         <h3>
           Total Payout
@@ -105,7 +105,7 @@ exports[`ProductMenu Component matches snapshot 1`] = `
       class="p-2"
     >
       <div
-        class="flex items-center justify-between text-sm text-gray-500"
+        class="flex items-center tracking-tight font-medium justify-between text-sm text-gray-500"
       >
         <h3>
           Total Revenue
@@ -153,7 +153,7 @@ exports[`ProductMenu Component matches snapshot 1`] = `
       class="p-2"
     >
       <div
-        class="flex items-center justify-between text-sm text-gray-500"
+        class="flex items-center tracking-tight font-medium justify-between text-sm text-gray-500"
       >
         <h3>
           Pending Payout

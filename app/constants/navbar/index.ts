@@ -11,8 +11,8 @@ export const appsDropdown = [
       alt: "product-img",
       className: "mx-auto",
     }),
-    appTitle: "Link in bio",
-    appSubtitle: "Manage your link in your bio",
+    appTitle: "Link in Bio",
+    appSubtitle: "Manage your Link in your bio",
   },
   {
     appImage: React.createElement(Image, {
@@ -23,7 +23,7 @@ export const appsDropdown = [
       className: "mx-auto",
     }),
     appTitle: "Store",
-    appSubtitle: "Manage your store activities",
+    appSubtitle: "Manage your Store activities",
   },
   {
     appImage: React.createElement(Image, {
@@ -34,7 +34,7 @@ export const appsDropdown = [
       className: "mx-auto",
     }),
     appTitle: "Media kit",
-    appSubtitle: "Manage your media kit",
+    appSubtitle: "Manage your Media Kit",
   },
   {
     appImage: React.createElement(Image, {
@@ -45,11 +45,11 @@ export const appsDropdown = [
       className: "mx-auto",
     }),
     appTitle: "Invoicing",
-    appSubtitle: "Manage your invoices",
+    appSubtitle: "Manage your Invoices",
   },
   {
     appIcon: TbFolderFilled,
     appTitle: "Bookings",
-    appSubtitle: "Manage your bookings",
+    appSubtitle: "Manage your Bookings",
   },
 ];

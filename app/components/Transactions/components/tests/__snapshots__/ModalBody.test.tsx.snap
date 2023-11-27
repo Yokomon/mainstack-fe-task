@@ -33,14 +33,16 @@ exports[`ModalBody Component matches snapshot 1`] = `
     <div
       class="my-5 space-y-2"
     >
-      <h3>
+      <h3
+        class="font-medium"
+      >
         Date Range
       </h3>
       <div
         class="relative flex items-center justify-between"
       >
         <div
-          class="space-x-8"
+          class="space-x-3"
         >
           <input
             placeholder="Start date"

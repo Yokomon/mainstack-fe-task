@@ -38,21 +38,21 @@ const Transaction: React.FC<TransactionProps> = ({ data }) => {
       />
       <div>
         <div className="flex items-center justify-between">
-          <div className="text-3xl font-bold tracking-wide">
+          <div className="text-3xl font-bold tracking-tight">
             <h2>{data.length} Transactions</h2>
             <p className="text-sm text-gray-500 font-normal">
-              Your transactions for the last 7 days
+              Your transactions for All Time
             </p>
           </div>
           <div className="flex items-center gap-3 text-sm">
             <button
               onClick={openModal}
-              className="p-3 px-6 flex items-center font-semibold text-gray-700 space-x-2 rounded-full bg-gray-200/60 hover:bg-gray-300/60 duration-500"
+              className="p-3 px-6 flex items-center font-semibold text-gray-800 space-x-2 rounded-full bg-gray-200/60 hover:bg-gray-300/60 duration-500"
             >
               <h3>Filter</h3>
-              <MdKeyboardArrowDown size={18} className="mt-1" />
+              <MdKeyboardArrowDown size={19} className="mt-1" />
             </button>
-            <button className="p-3 px-6 flex items-center font-semibold text-gray-700 space-x-3 rounded-full bg-gray-200/60 hover:bg-gray-300/60 duration-500">
+            <button className="p-3 px-6 flex items-center font-semibold text-gray-800 space-x-3 rounded-full bg-gray-200/60 hover:bg-gray-300/60 duration-500">
               <h3>Export list</h3>
               <PiDownloadSimple size={18} className="mt-1" />
             </button>

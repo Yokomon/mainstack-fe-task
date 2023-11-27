@@ -23,7 +23,7 @@ const AppNavigation = () => {
           onClick={() => setNavPath(headerTitle)}
           key={headerTitle}
           className={clsx({
-            ["p-2.5 flex items-center space-x-2 duration-500 cursor-pointer rounded-full px-5 text-sm "]:
+            ["p-2.5 flex items-center space-x-2 duration-500 font-medium cursor-pointer rounded-full px-5 text-sm "]:
               true,
             ["bg-black p-3 rounded-full text-white"]: active,
             ["hover:bg-gray-100 hover:text-gray-600"]: !active,
@@ -39,7 +39,7 @@ const AppNavigation = () => {
             <>
               <Menu.Button
                 className={clsx({
-                  ["p-2.5 flex items-center space-x-2 duration-500  rounded-full px-5 text-sm"]:
+                  ["p-2.5 flex items-center space-x-2 duration-500 font-medium rounded-full px-5 text-sm"]:
                     true,
                   ["bg-black text-white"]: open,
                   ["hover:bg-gray-100"]: !open,
@@ -61,7 +61,7 @@ const AppNavigation = () => {
                       ["opacity-100 !flex items-center space-x-3"]: true,
                     })}
                   >
-                    <h3 className="text-sm pl-3">Link in Bio</h3>
+                    <h3 className="text-sm pl-3" data-testid="bio-link">Link in Bio</h3>
                     <MdKeyboardArrowDown size={18} />
                   </div>
                 ) : null}
@@ -75,7 +75,7 @@ const AppNavigation = () => {
                 leaveFrom="transform opacity-100 scale-100"
                 leaveTo="transform opacity-0 scale-95"
               >
-                <Menu.Items className="absolute space-y-3 left-0 mt-3 w-96 pb-8 origin-top-left rounded-lg bg-white shadow-xl p-3 ring-1 ring-black/5 focus:outline-none">
+                <Menu.Items className="absolute space-y-3 left-0 mt-3 w-[27rem] pb-8 origin-top-left rounded-lg bg-white shadow-xl p-3 ring-1 ring-black/5 focus:outline-none">
                   {appsDropdown.map(
                     ({ appTitle, appSubtitle, appIcon, appImage }) => (
                       <Menu.Item key={appTitle}>
@@ -92,9 +92,9 @@ const AppNavigation = () => {
                               </div>
                             )}
                           </div>
-                          <div className="flex flex-1 flex-col items-start">
+                          <div className="flex flex-1 tracking-tight font-medium flex-col items-start">
                             <h2>{appTitle}</h2>
-                            <p className="text-sm text-gray-500">
+                            <p className="text-xs text-gray-500">
                               {appSubtitle}
                             </p>
                           </div>

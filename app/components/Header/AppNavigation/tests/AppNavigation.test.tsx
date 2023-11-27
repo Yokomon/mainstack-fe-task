@@ -27,7 +27,7 @@ describe("AppNavigation Component", () => {
     render(<AppNavigation />);
     const appsLink = screen.getByText("Apps");
     fireEvent.click(appsLink);
-    const modalText = screen.getByText("Link in Bio");
+    const modalText = screen.getByTestId("bio-link");
     expect(modalText).toBeInTheDocument();
   });
 
@@ -35,7 +35,7 @@ describe("AppNavigation Component", () => {
     render(<AppNavigation />);
     const appsButton = screen.getByText("Apps");
     fireEvent.click(appsButton);
-    const outsideElement = screen.getByText("Link in Bio");
+    const outsideElement = screen.getByTestId("bio-link");
     fireEvent.click(appsButton);
     expect(outsideElement).not.toBeInTheDocument();
   });

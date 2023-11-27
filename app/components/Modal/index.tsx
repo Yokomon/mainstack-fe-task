@@ -50,7 +50,7 @@ const Modal: React.FC<ModalProps> = ({
                   <Dialog.Title
                     as="div"
                     className={
-                      "text-xl font-medium leading-6 text-gray-900 flex items-center justify-between"
+                      "text-xl font-bold leading-6 text-gray-900 flex items-center justify-between"
                     }
                   >
                     <h3>{title} </h3>
