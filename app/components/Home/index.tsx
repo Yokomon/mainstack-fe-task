@@ -18,7 +18,7 @@ const Home = async () => {
     <main className="relative">
       <Header />
       <section className="relative h-full w-full mx-5">
-        <div className="fixed p-1 py-2 rounded-full top-72 shadow-2xl bg-white flex items-center flex-col gap-y-2">
+        <div className="fixed p-1 py-2 rounded-full z-20 top-72 shadow-2xl bg-white flex items-center flex-col gap-y-2">
           {productActions.map(({ image, tooltipText }, idx) => (
             <Tooltip tooltip={tooltipText} key={idx}>
               <button
@@ -35,9 +35,11 @@ const Home = async () => {
         </div>
         <div className="w-full h-full max-w-6xl mx-auto">
           <div className="flex items-center p-5 pt-16 relative">
-            <div className="absolute flex items-center space-x-24 top-24 w-full space-y-2">
-              <div>
-                <h3 className="text-gray-600">Available Balance</h3>
+            <div className="absolute flex items-center space-x-32 top-24 w-full">
+              <div className="space-y-3">
+                <h3 className="text-gray-500 tracking-tight font-medium text-sm">
+                  Available Balance
+                </h3>
                 <h1 className="font-bold text-4xl">USD {walletData.balance}</h1>
               </div>
               <Button className="bg-black text-white !w-fit py-4 !px-12">

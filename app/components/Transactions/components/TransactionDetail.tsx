@@ -49,8 +49,8 @@ const TransactionDetail: React.FC<TransactionDetailProps> = ({
             />
           )}
         </button>
-        <div className="space-y-1">
-          <h2>{title}</h2>
+        <div className="space-y-1 tracking-tight">
+          <h2 className="font-medium">{title}</h2>
           <p
             className={clsx({
               ["text-gray-600 text-sm"]: true,

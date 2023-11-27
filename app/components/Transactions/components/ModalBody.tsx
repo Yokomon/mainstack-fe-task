@@ -27,7 +27,7 @@ const ModalBody = () => {
         <ModalButton text="Last 3 months" />
       </div>
       <div className="my-5 space-y-2">
-        <h3>Date Range</h3>
+        <h3 className="font-medium">Date Range</h3>
         <div className="relative flex items-center justify-between">
           <DateRangePicker
             startDate={startDate}
@@ -42,7 +42,7 @@ const ModalBody = () => {
             locale={enGB}
           >
             {({ startDateInputProps, endDateInputProps, focus }) => (
-              <div className="space-x-8">
+              <div className="space-x-3">
                 <input {...startDateInputProps} placeholder="Start date" />
                 <input {...endDateInputProps} placeholder="End date" />
               </div>

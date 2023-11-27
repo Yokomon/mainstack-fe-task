@@ -25,8 +25,11 @@ const UserActions: React.FC<UserActionsProps> = ({ data }) => {
       </div>
       <div className="relative">
         <Menu>
-          <Menu.Button aria-label="user-menu" className="flex items-center space-x-2 rounded-full p-1 hover:shadow-sm duration-500 pr-3 bg-gray-100 hover:bg-gray-200">
-            <div className="rounded-full p-2 px-3 bg-black text-white">
+          <Menu.Button
+            aria-label="user-menu"
+            className="flex items-center space-x-2 rounded-full p-1 hover:shadow-sm duration-500 pr-3 bg-gray-100 hover:bg-gray-200"
+          >
+            <div className="rounded-full p-2 px-3 bg-gradient-to-r from-black/60 to-black text-white">
               <h4 className="text-sm uppercase">
                 {data.first_name.charAt(0)}
                 {data.last_name.charAt(0)}
@@ -44,15 +47,15 @@ const UserActions: React.FC<UserActionsProps> = ({ data }) => {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-            <Menu.Items className="absolute space-y-3 right-0 mt-8 w-96 pb-8 origin-top-right rounded-lg bg-white shadow-xl p-3 ring-1 ring-black/5 focus:outline-none">
-              <div className="flex space-x-4 mt-3">
-                <button className="rounded-full w-12 h-12 flex items-center justify-center bg-black text-white">
+            <Menu.Items className="absolute space-y-3 right-0 font-medium mt-8 w-96 pb-8 origin-top-right rounded-lg bg-white shadow-xl p-3 ring-1 ring-black/5 focus:outline-none">
+              <div className="flex space-x-4 mt-3 !mb-10">
+                <button className="rounded-full w-12 h-12 flex shadow-sm bg-gradient-to-r from-rose-100/40 to-black items-center justify-center bg-black text-white">
                   <h4>
                     {data.first_name.charAt(0)}
                     {data.last_name.charAt(0)}
                   </h4>
                 </button>
-                <div className="text-lg">
+                <div className="text-lg space-y-1.5">
                   <h3>
                     {data.first_name} {data.last_name}
                   </h3>
@@ -63,7 +66,7 @@ const UserActions: React.FC<UserActionsProps> = ({ data }) => {
                 <Menu.Item key={actionTitle}>
                   <button
                     className={clsx({
-                      ["flex group text-sm rounded-full hover:shadow-sm duration-500 items-center space-x-5 p-3 w-full"]:
+                      ["flex group text-sm rounded-full tracking-tight hover:shadow-sm duration-500 items-center space-x-5 p-3 w-full"]:
                         true,
                       ["hover:bg-rose-50 text-rose-500"]:
                         actionTitle === "Sign out",

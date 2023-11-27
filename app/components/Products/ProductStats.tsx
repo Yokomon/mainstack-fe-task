@@ -10,7 +10,7 @@ interface ProductStatsProps {
 const ProductStats: React.FC<ProductStatsProps> = ({ title, amount }) => {
   return (
     <div className="p-2">
-      <div className="flex items-center justify-between text-sm text-gray-500">
+      <div className="flex items-center tracking-tight font-medium justify-between text-sm text-gray-500">
         <h3>{title}</h3>
         <FiInfo className="cursor-pointer text-gray-400" size={20} />
       </div>

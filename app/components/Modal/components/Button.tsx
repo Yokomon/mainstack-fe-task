@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({ children, className, onClick }) => {
     <button
       onClick={onClick}
       className={clsx({
-        ["flex shadow-sm text-sm items-center justify-center rounded-full px-12 ring-1 ring-gray-200 w-full p-3"]:
+        ["flex shadow-sm text-sm font-medium tracking-tight items-center justify-center rounded-full px-12 ring-1 ring-gray-200 w-full p-3"]:
           true,
         [className!]: className,
       })}
