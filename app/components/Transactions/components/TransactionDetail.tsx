@@ -3,6 +3,7 @@
 import React from "react";
 import { MdOutlineArrowOutward } from "@react-icons/all-files/md/MdOutlineArrowOutward";
 import { FiArrowDownLeft } from "@react-icons/all-files/fi/FiArrowDownLeft";
+import { format } from "date-fns";
 import clsx from "clsx";
 
 interface TransactionDetailProps {
@@ -65,7 +66,9 @@ const TransactionDetail: React.FC<TransactionDetailProps> = ({
       </div>
       <div className="space-y-1">
         <h1 className="text-xl font-bold">USD {amount}</h1>
-        <p className="text-sm text-right text-gray-500"> {date}</p>
+        <p className="text-sm text-right text-gray-500">
+          {format(new Date(date), "MMM dd, yyyy")}
+        </p>
       </div>
     </div>
   );
